@@ -11,7 +11,7 @@ const Services = () => {
     <h1 className="text-3xl">Services We Provide</h1>
    </div>
       <div className=" lg:flex  justify-center gap-4  " >
-      <div className="card w-96 bg-base-100 shadow-xl">
+      <div className="card w-96 bg-base-100 shadow-xl mb-20">
         <figure className="px-10 pt-10">
           <img
             src={teath}
@@ -25,7 +25,7 @@ const Services = () => {
           
         </div>
       </div>
-      <div className="card w-96 bg-base-100 shadow-xl">
+      <div className="card w-96 bg-base-100 shadow-xl mb-20">
         <figure className="px-10 pt-10">
           <img
             src={cavity}
@@ -39,7 +39,7 @@ const Services = () => {
        
         </div>
       </div>
-      <div className="card w-96 bg-base-100 shadow-xl">
+      <div className="card w-96 bg-base-100 shadow-xl mb-20">
         <figure className="px-10 pt-10">
           <img
             src={whitening}

@@ -8,7 +8,7 @@ const PatientsSays = () => {
     <div className="ms-10 pb-20"><h3 className="text-secondary text-xl">Testimonial</h3>
     <h1 className="text-3xl">What Our Patients Says</h1></div>
      <div className="lg:flex  justify-center gap-4 ">
-      <div className="card w-96 bg-base-100 shadow-xl">
+      <div className="card w-96 bg-base-100 shadow-xl mb-20 ">
         <div className="card-body">
           <p className="pb-10">If a dog chews shoes whose shoes does he choose?If a dog chews shoes whose shoes does he choose?If a dog chews shoes whose shoes does he choose?</p>
           <div className="flex  items-center	">
@@ -24,7 +24,7 @@ const PatientsSays = () => {
           </div>
         </div>
       </div>
-      <div className="card w-96 bg-base-100 shadow-xl">
+      <div className="card w-96 bg-base-100 shadow-xl mb-20 ">
         <div className="card-body">
           <p className="pb-10">If a dog chews shoes whose shoes does he choose?If a dog chews shoes whose shoes does he choose?If a dog chews shoes whose shoes does he choose?</p>
           <div className="flex  items-center	">
@@ -40,7 +40,7 @@ const PatientsSays = () => {
           </div>
         </div>
       </div>
-      <div className="card w-96 bg-base-100 shadow-xl">
+      <div className="card w-96 bg-base-100 shadow-xl mb-20">
         <div className="card-body">
           <p className="pb-10">If a dog chews shoes whose shoes does he choose?If a dog chews shoes whose shoes does he choose?If a dog chews shoes whose shoes does he choose?</p>
           <div className="flex  items-center	">

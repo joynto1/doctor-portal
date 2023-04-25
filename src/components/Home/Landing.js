@@ -5,7 +5,7 @@ import call from '../../assets/icons/phone.svg'
  
 const Landing = () => {
   return (
-    <div className=" lg:flex  justify-center gap-4 text-white">
+    <div className=" lg:flex  justify-center gap-4 text-white ps-5 pe-5">
       <div style={{background:`linear-gradient(90deg, #19D3AE -38.67%, #0FCFEC 129.78%)`}} className="card card-side  px-5 shadow-xl mb-10">
         <figure>
           <img src={clock} alt=" "/>
