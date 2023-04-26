@@ -1,11 +1,11 @@
 import React from 'react';
-import AppoinmentBanner from './AppoinmentBanner';
-
+import AppoinmentBanner from './AppointmentBanner';
+ 
 const Appointment = () => {
     return (
         <div>
-            <AppoinmentBanner></AppoinmentBanner>
-            
+            <AppoinmentBanner></AppoinmentBanner>  
+                 
         </div>
     );
 };
