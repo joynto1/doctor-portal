@@ -6,6 +6,7 @@ import Exceptional from "./Exceptional";
 import AppoinmentPage from "./AppoinmentPage";
 import PatientsSays from "./PatientsSays";
 import SayFrom from "./SayFrom";
+import Footer from "../Footer/Footer";
 
 const Home = () => {
     
@@ -18,6 +19,7 @@ const Home = () => {
     <AppoinmentPage></AppoinmentPage>
     <PatientsSays></PatientsSays>
     <SayFrom></SayFrom>
+    <Footer></Footer>
   </div>
   );
 };

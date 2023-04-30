@@ -7,7 +7,7 @@ const Footer = () => {
   const year = date.getFullYear();
   return (
    <div className="mt-20"> 
-     <div style={{backgroundImage:`url(${footerbg})`}}>
+     <div style={{backgroundImage:`url(${footerbg})` }} className="bg-cover">
       <footer className="footer justify-around p-10 text-third-content  ">
         <div>
           <span className="footer-title">SERVICES</span>

@@ -29,7 +29,7 @@ const AppoinmentBanner = () => {
           <DayPicker mode="single" date={date} onSelect={setDate}></DayPicker>
         </div>
       </div>
-      <p className="text-center text-xl mt-20 text-secondary "> 
+      <p className="text-center text-xl mt-20 text-secondary bg-third"> 
         Selected Appointmented Date {format(date,"PP")}
       </p>
       <p className="text-center">Select Your Service</p>
@@ -45,7 +45,7 @@ const AppoinmentBanner = () => {
         length={appointment.slots.length}
         date ={date}
      
-        treatment ={treatment}
+         treatment ={treatment} 
         ></AppointmentServices>
         )
         

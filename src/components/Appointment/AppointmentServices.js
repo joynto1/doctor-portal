@@ -1,16 +1,18 @@
  
-import React     from "react";
+import React from "react";
+import { useAuthState } from "react-firebase-hooks/auth";
+import auth from "../firebase.init";
+ 
+ 
  
  
 
 const AppointmentServices = ({ name, slots, length, date,setTreatment,treatment  }) => {
-     
-
+ 
+const [user,displayName] = useAuthState(auth);
   const formHandler = (event) => {
     event.preventDefault();
-    const slot =event.target.slot.value;
-     
-    console.log(slot);
+       
   };
 
   return (
@@ -53,11 +55,12 @@ const AppointmentServices = ({ name, slots, length, date,setTreatment,treatment 
                    {slots.map(slot=><option value={slot}>{slot}</option>)}
                 </select>
                 <br />
-                <input
-                  className="mt-5 px-10 py-3  border outline-primary  rounded-xl"
+                <input disabled
+                   
+                  className="mt-5 px-10 py-3 font-semibold border outline-primary  rounded-xl"
                   type="text"
                   name="name"
-                  placeholder="Full Name"
+                   value={ displayName}
                    
                 />
                 <br />
@@ -70,14 +73,14 @@ const AppointmentServices = ({ name, slots, length, date,setTreatment,treatment 
                 />
                 <br />
                 <input
-                  className="mt-5 px-10 py-3  border outline-primary  rounded-xl"
+                  className="mt-5 px-10 py-3 font-semibold border outline-primary  rounded-xl"
                   type="email"
                   name="email"
-                  placeholder="Enter Email"
-                   
+                   disabled
+                   value={user.email}
                 /> 
                 <br />
-                <button  className="btn  bg-secondary mt-10 text-white border-none">
+                <button className="  btn  bg-secondary mt-10 w-80 text-white border-none">
                   Submit
                 </button>
               </form>

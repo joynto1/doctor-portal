@@ -5,7 +5,7 @@ const Banner = () => {
     
   return (
 
-     <div style={{backgroundImage:`url(${bg})`}}  className="hero min-h-screen  ">
+     <div style={{backgroundImage:`url(${bg})`}}  className="hero min-h-screen  bg-cover ">
       <div className="hero-content   flex-col  lg:flex-row-reverse  ">
         <img src={chair} className=" max-w-sm rounded-lg shadow-2xl" />
         <div className="p-5"></div>
