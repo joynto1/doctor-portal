@@ -86,7 +86,7 @@ const Login = () => {
             </div>
             {signError}
              <p className="flex justify-between text-secondary pt-5 pb-5"> <small><Link>Forget Password ?</Link></small> <br />
-              <small className="pe-2"><Link to='/signup'>New for Doctor-Portal</Link></small></p>
+              <small className="pe-2"><Link to='/signup'>Create a New Account</Link></small></p>
             <input className="btn bg-primary w-full max-w-xs border-none text-white" type="submit" value='Log In' />
           </form>
                 

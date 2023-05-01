@@ -13,7 +13,7 @@ import Loading from '../Loading';
   const [
     createUserWithEmailAndPassword,user,loading,error] = useCreateUserWithEmailAndPassword(auth);
     const [updateProfile] = useUpdateProfile(auth);
-    const [signInWithGoogle,Guser, Gloading, Gerror] = useSignInWithGoogle(auth);
+    const [signInWithGoogle, Gloading, Gerror] = useSignInWithGoogle(auth);
   const {
     register,
     formState: { errors },
@@ -31,7 +31,7 @@ import Loading from '../Loading';
   if(Gerror || error){
     signError = <small className="text-red-600">{error?.message}</small>
   }
-  if(user || Guser){
+  if(user){
     navigate(from, { replace: true });
   }
   const GooglePopupHandler =()=>{
